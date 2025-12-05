@@ -1,0 +1,34 @@
+[project]
+name = "naver-dict-api"
+version = "0.1.0"
+authors = [{ name = "roamer3147", email = "noreply@example.com" }]
+description = "A Python library for accessing Naver Dictionary API"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["curl-cffi>=0.13.0"]
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["naver", "dictionary", "hanja", "korean", "api", "translator"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.urls]
+Homepage = "https://github.com/gembleman/naver-dict-api"
+Repository = "https://github.com/gembleman/naver-dict-api"
+Issues = "https://github.com/gembleman/naver-dict-api/issues"
+Documentation = "https://github.com/gembleman/naver-dict-api#readme"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0", "pytest-cov>=4.1.0"]
+
+[build-system]
+requires = ["uv_build>=0.9.15,<0.10.0"]
+build-backend = "uv_build"
