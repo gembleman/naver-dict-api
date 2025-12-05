@@ -1,6 +1,6 @@
 [project]
 name = "naver-dict-api"
-version = "0.1.0"
+version = "0.1.1"
 authors = [{ name = "roamer3147", email = "noreply@example.com" }]
 description = "A Python library for accessing Naver Dictionary API"
 readme = "README.md"
